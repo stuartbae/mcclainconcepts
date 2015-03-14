@@ -16,6 +16,8 @@ return [
 	|
 	*/
 
+	// Updated SESSION_DRIVER environment to "database" in .env file
+
 	'driver' => env('SESSION_DRIVER', 'file'),
 
 	/*

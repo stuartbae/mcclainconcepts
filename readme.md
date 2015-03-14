@@ -1,23 +1,33 @@
-## Laravel PHP Framework
+## PHP MVC Framework Skills Test
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+These tasks will help me understand where you stand in terms of PHP development, and how quickly you are able to learn and pick up on new technologies. It will also give you the opportunity to learn a little about Laravel and its supporting technologies.
+These tasks do not require any kind of extensive design or front­end development. An basic unstyled application would be just fine. Feel free to add a template, stylesheet, or use a framework, a​fter sending me the repository f​or review. This will help when it comes time to make a final decision.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Feel free to email me if you have any questions.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+● Install Composer (h​ttps://getcomposer.org/)​
 
-## Official Documentation
+● CreateabarebonesLaravel5application(h​ttp://laravel.com/docs/5.0)​
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+● Make this bare bones application a git repository and push that repository to a remote service, such as Github.com or BitBucket.org. Create an account if necessary. Send me the link as soon as you do this please.
 
-## Contributing
+● Get your application running within a Homestead virtualbox development environment. (h​ttp://laravel.com/docs/5.0/homestead)​
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+● Complete each of the following tasks as a commit with a commit message that describes the changes you made. Each task should have a​t least​one corresponding commit.
 
-### License
+1. Configure the application to use the MySQL database driver.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+2. Configure the application to use database driven sessions.
+(h​ttp://laravel.com/docs/5.0/session#database­sessions)​
+
+3. Build a simple user system. (http://laravel.com/docs/5.0/authentication)
+    ■ Simple home page with a login form and a register form (both can be on the same
+      home page).
+    ■ Once logged in, homepage shows the user’s name and a logout link instead of the
+      two forms.
+    ■ Use the laravel database seeders to create 2 users when the “php artisan db:seed”
+      command is run the first time the application is setup. The two default “seeded” users should have the following login credentials:
+      jsarda@mcclainconcepts.com​// LaravelTestPW
+      your@emailaddress.com​// LaravelTestPW
+
+4. Publish your application to a free Heroku.com cloud hosting account and send me the link to the public herokuapp project link. https://mattstauffer.co/blog/installing­a­laravel­app­on­heroku https://mattstauffer.co/blog/laravel­on­heroku­using­a­mysql­database

@@ -26,6 +26,7 @@ return [
 	|
 	*/
 
+	// MySQL as default database driver
 	'default' => 'mysql',
 
 	/*
